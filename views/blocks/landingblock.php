@@ -93,22 +93,43 @@
             <ol class="carousel-indicators">
                 <li data-target="#slider1" data-slide-to="0" class="active"></li>
                 <li data-target="#slider1" data-slide-to="1"></li>
+                <li data-target="#slider1" data-slide-to="2"></li>
+                <li data-target="#slider1" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
+
                 <div class="carousel-item active">
                     <div class="row row-equals-height">
-                        <div class="col-4"><img class="d-block w-100" src="img/slide1.jpg" alt="First slide"></div>
-                        <div class="col-4"><img class="d-block w-100" src="img/slide1.jpg" alt="First slide"></div>
-                        <div class="col-4"><img class="d-block w-100" src="img/slide1.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/1.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/2.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/3.jpg" alt="First slide"></div>
                     </div>
                 </div>
+
                 <div class="carousel-item">
                     <div class="row row-equals-height">
-                        <div class="col-4"><img class="d-block w-100" src="img/slide1.jpg" alt="First slide"></div>
-                        <div class="col-4"><img class="d-block w-100" src="img/slide1.jpg" alt="First slide"></div>
-                        <div class="col-4"><img class="d-block w-100" src="img/slide1.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/4.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/5.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/6.jpg" alt="First slide"></div>
                     </div>
                 </div>
+
+                <div class="carousel-item">
+                    <div class="row row-equals-height">
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/7.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/8.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/9.jpg" alt="First slide"></div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row row-equals-height">
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/10.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/11.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider1/12.jpg" alt="First slide"></div>
+                    </div>
+                </div>
+
             </div>
             <a class="carousel-control-prev" href="#slider1" role="button" data-slide="prev">
                 <div class="arrow arrow-left"></div>
@@ -148,8 +169,8 @@
                         <p>Прикрепите заявку и свои реквизиты –
                             и мы сразу сможем выставить Вам счет.</p>
                         <div class="row">
-                            <div class="col-12 col-sm-6 col-lg-6"><label for="file1" class="w-100"><img src="img/plusfle.png" class="float-left mt-2 ml-2 d-lg-inline d-none" alt="pluc icon"><p class="my-1">Прикрепите заявку</p></span></label></div>
-                            <div class="col-12 col-sm-6 col-lg-6"><label for="file2" class="w-100"><img src="img/plusfle.png" class="float-left mt-2 ml-2 d-lg-inline d-none" alt="pluc icon"><p class="my-1">Прикрепите реквизиты</p></label></div>
+                            <div class="col-12 col-sm-6 col-lg-6"><label for="file1" class="w-100"><img src="img/plusfle.png" class="float-left mt-2 ml-2 d-lg-inline d-none" alt="pluc icon"><p class="my-1 text-center text-md-left">Прикрепите<br>заявку</p></span></label></div>
+                            <div class="col-12 col-sm-6 col-lg-6"><label for="file2" class="w-100"><img src="img/plusfle.png" class="float-left mt-2 ml-2 d-lg-inline d-none" alt="pluc icon"><p class="my-1 text-center text-md-left">Прикрепите<br>реквизиты</p></label></div>
                         </div>
                         <input type="file" name="zayavka" id="file1" class="d-none">
                         <input type="file" name="rekvizits" id="file2" class="d-none">
@@ -163,11 +184,11 @@
     </div>
 </div>
 
-<div id="steps" class="mt-5 py-5">
+<div id="steps" class="mt-1 mt-md-5 py-md-5">
     <div class="container">
         <h1 class="text-center">Принимаем заказы<br>
             <span>со сроком «вчера»</span></h1>
-        <h2 class="text-center mb-5">Средний заказ на 3 тонны изготавливается 7-10 календарных дней</h2>
+        <h2 class="text-center mb-1 mb-md-5">Средний заказ на 3 тонны изготавливается 7-10 календарных дней</h2>
         <p class="d-none d-lg-block mb-5"><img src="img/steps.png" alt="steps image" class="w-100"></p>
     </div>
 </div>
@@ -196,7 +217,7 @@
         <div class="row">
             <div class="col-12 col-lg-5">
                 <img src="img/document1.jpg" class="w-100" alt="document 1">
-                <p class="text-center mt-4">Сертификат ISO 9001</p>
+                <p class="text-center mt-4">Сертификат соответствия</p>
             </div>
             <div class="col-12 col-lg-7">
                 <h4 class="mb-lg-5">Паспорта качества и сертификаты<br>
@@ -246,16 +267,16 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row row-equals-height">
-                        <div class="col-4"><img class="d-block w-100" src="img/r1.jpg" alt="First slide"></div>
-                        <div class="col-4"><img class="d-block w-100" src="img/r1.jpg" alt="First slide"></div>
-                        <div class="col-4"><img class="d-block w-100" src="img/r1.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider2/01.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider2/02.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider2/03.jpg" alt="First slide"></div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row row-equals-height">
-                        <div class="col-4"><img class="d-block w-100" src="img/r1.jpg" alt="First slide"></div>
-                        <div class="col-4"><img class="d-block w-100" src="img/r1.jpg" alt="First slide"></div>
-                        <div class="col-4"><img class="d-block w-100" src="img/r1.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider2/04.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider2/05.jpg" alt="First slide"></div>
+                        <div class="col-4"><img class="d-block w-100" src="img/slider2/06.jpg" alt="First slide"></div>
                     </div>
                 </div>
             </div>

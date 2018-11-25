@@ -13,6 +13,9 @@ $this->title = 'Наши контакты';
 <div id="contacts">
     <div class="container">
         <div class="row mt-5">
+            <div class="col-12 pt-0 mt-0 col-md-7">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3eeb1dd076b8c66f14a341a1571f50b94fe8300ffd8297bb83da82763dc7a38b&amp;width=100%25&amp;height=630&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
             <div class="col-12 col-md-5">
                 <h1>КОНТАКТЫ</h1>
                 <div class="row">
@@ -21,9 +24,6 @@ $this->title = 'Наши контакты';
                     <div class="col-12 mt-4"><img src="img/blank-map-pointer-orange.png" class="float-left" alt="pointer"><p class="mt-3">Альметьевск,<br>
                             ул. Объездная, д.5</p></div>
                 </div>
-            </div>
-            <div class="col-12 col-md-7">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3eeb1dd076b8c66f14a341a1571f50b94fe8300ffd8297bb83da82763dc7a38b&amp;width=100%25&amp;height=630&amp;lang=ru_RU&amp;scroll=true"></script>
             </div>
         </div>
     </div>
@@ -40,7 +40,7 @@ $this->title = 'Наши контакты';
                 <h1 class="text-center mt-4">СКАЧАЙТЕ НАШИ ДОКУМЕНТЫ</h1>
                 <h2 class="text-center mt-1">для проверки контрагента</h2>
                 <p class="text-center">
-                    <a href=""><button>СКАЧАТЬ ДОКУМЕНТЫ WinRar</button></a>
+                    <a href="/neftemash.doc"><button>СКАЧАТЬ ДОКУМЕНТЫ WinRar</button></a>
                 </p>
             </div>
         </div>

@@ -352,6 +352,9 @@ button:hover {
     font-weight: normal;
     color: #000;
 }
+#oporaslider .carousel-item .col-4 {
+
+}
 /*
     ORDER block with form
 
@@ -418,6 +421,9 @@ button:hover {
     #order h1 span {
         font-size: 40px;
     }
+    #order label p{
+        margin-left: 0px;
+    }
 }
 /*
 
@@ -440,6 +446,19 @@ button:hover {
 #steps h2 {
     font-size: 30px;
     font-weight: 600;
+}
+@media (max-width: 480px) {
+    #steps h1 {
+        font-size: 40px;
+    }
+    #steps h1 span {
+        line-height: 60px;
+    }
+    #steps h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
 }
 /*
 
@@ -474,6 +493,28 @@ button:hover {
 #jbutton h3 {
     font-size: 24px;
     font-weight: normal;
+}
+@media (max-width: 480px) {
+    #jbutton h1,
+    #jbutton h2,
+    #jbutton h3
+    {
+        line-height: 40px;
+    }
+    #jbutton h1 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #f76309;
+        text-transform: uppercase;
+    }
+    #jbutton h2 {
+        font-size: 25px;
+        font-weight: normal;
+    }
+    #jbutton h3 {
+        font-size: 20px;
+        font-weight: normal;
+    }
 }
 /*
     DELIVERY BLOCK
@@ -711,6 +752,16 @@ button:hover {
         grid-template-columns: 0fr 1fr;
     }
 }
+/**/
+@media (max-width: 1490px) {
+    #footer label img {
+        display: none !important;
+    }
+    #footer label p{
+        margin-left: 0px;
+        text-align: center;
+    }
+}
 /*
     Breadcrumbs
 */
@@ -748,6 +799,11 @@ button:hover {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
+}
+#itemInfo h2 {
+    color: gray;
+    font-weight: normal;
+    font-size: 30px;
 }
 #itemInfo .col-6 button {
     background: #94969e;
@@ -835,6 +891,51 @@ button:hover {
 }
 #menu .item:hover, #menu .item.active {
     background-color: rgba(0,0,0,.1);
+}
+#menu .burger {
+    display: none;
+}
+
+#menu .mobile-name img {
+    height: 40px;
+}
+#menu .burger img {
+    height: 30px;
+}
+#menu .mobile-name > img {
+    position: relative;
+    top: -4px;
+}
+#menu .mobile-name {
+    display: none;
+    font-family: 'HeliosExtraCompressedC' !important;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+@media (max-width: 770px) {
+    #header {
+        display: none;
+    }
+    #main .header {
+        display: none;
+    }
+    #menu .burger {
+        display: block;
+    }
+    #menu .mobile-name {
+        display: block;
+    }
+    #menu .container {
+        display: none;
+        margin-left: 0;
+    }
+    #menu .item {
+        display: block;
+        text-align: left;
+        margin-left: 0;
+    }
 }
 /**/
 .price_cena {

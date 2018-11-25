@@ -12,6 +12,8 @@
         </div>
     </div>
 </div>
+
+
 <?php if($item->tableName() == 'variety'): ?>
     <div class="modal fade" id="schemeModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
@@ -28,12 +30,16 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-body text-center">
-                    <?= $item->characs->content ?>
+                    <?php if($item->characs): ?>
+                        <?= $item->characs->content ?>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
     </div>
 <?php endif; ?>
+
+
 <div id="itemInfo">
     <div class="breadcrumbs py-3">
         <div class="container">
@@ -56,6 +62,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6 order-first order-lg-last">
+                <h2 class=""><?= $item->tableName() == 'variety' ? $item->item->text : '' ?></h2>
                 <h1 class="mb-5"><?= $item->text ?></h1>
                 <h3 class="mb-5">Изготовим опоры трубопроводов<br>
                     от 5 календарных дней<br>

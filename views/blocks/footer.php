@@ -35,8 +35,8 @@
                 <input type="file" name="file2" id="file4" class="d-none">
                 <p>Прикрепите заявку и свои реквизиты – и мы сразу сможем выставить Вам счет.</p>
                 <div class="row">
-                    <div class="col-12 col-md-3"><label for="file3" class="w-100"><img src="img/plusfle.png" class="float-left mt-2 ml-2 d-lg-inline d-none" alt="pluc icon"><p class="my-1">Прикрепите заявку</p></span></label></div>
-                    <div class="col-12 col-md-3"><label for="file4" class="w-100"><img src="img/plusfle.png" class="float-left mt-2 ml-2 d-lg-inline d-none" alt="pluc icon"><p class="my-1">Прикрепите реквизиты</p></label></div>
+                    <div class="col-12 col-md-3"><label for="file3" class="w-100"><img src="img/plusfle.png" class="float-left mt-2 ml-2 d-lg-inline d-none" alt="pluc icon"><p class="my-1">Прикрепите<br>заявку</p></span></label></div>
+                    <div class="col-12 col-md-3"><label for="file4" class="w-100"><img src="img/plusfle.png" class="float-left mt-2 ml-2 d-lg-inline d-none" alt="pluc icon"><p class="my-1">Прикрепите<br>реквизиты</p></label></div>
                     <div class="col-12 col-md-6">
                         <button>Отправить</button></div>
                 </div>
