@@ -195,6 +195,7 @@ button:hover {
     font-family: 'Open Sans', sans-serif !important;
     /*white-space: nowrap;*/
 }
+
 .items img {
     width: 100%;
 }
@@ -210,6 +211,11 @@ button:hover {
     /*margin-right: 10px;*/
     /*width: calc(25% - 10px);*/
     /*padding-right: 0;*/
+    transition: 300ms;
+}
+.items > div > a > div:hover {
+    transition: 300ms;
+    box-shadow: 0 0 7px 4px rgba(0,0,0,0.3);
 }
 .items > div > a {
     color: #000;
