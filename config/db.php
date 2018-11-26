@@ -3,7 +3,7 @@
 return [
     'class' => 'yii\db\Connection',
     'dsn' => 'mysql:host=localhost;dbname=npc',
-    'username' => 'mysql',
-    'password' => 'mysql',
+    'username' => 'root',
+    'password' => '',
     'charset' => 'utf8',
 ];
