@@ -965,3 +965,13 @@ button:hover {
 #catalog h4 {
     display: inline-block;
 }
+/**/
+#photos .box {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30%;
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+}
