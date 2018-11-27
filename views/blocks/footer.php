@@ -11,7 +11,9 @@
         </div>
     </div>
     <div class="content">
-        <div><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3eeb1dd076b8c66f14a341a1571f50b94fe8300ffd8297bb83da82763dc7a38b&amp;width=100%25&amp;height=630&amp;lang=ru_RU&amp;scroll=true"></script></div>
+        <div>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3eeb1dd076b8c66f14a341a1571f50b94fe8300ffd8297bb83da82763dc7a38b&amp;width=100%25&amp;height=630&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
         <div class="form" style='background-image: url("img/footerbg.jpg");background-size: cover;'>
             <h1>Изготовим опоры трубопроводов<br>
                 от 5 календарных дней<br>

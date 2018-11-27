@@ -752,10 +752,17 @@ button:hover {
     text-decoration: underline;
     font-weight: 500;
 }
+
 @media (max-width: 991px) {
     #footer .content{
         display: grid;
-        grid-template-columns: 0fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    #footer .content:first-child {
+        display: none;
+    }
+    #footer .content h1 {
+        font-size: 2rem;
     }
 }
 /**/
