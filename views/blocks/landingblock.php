@@ -154,7 +154,7 @@
             </div>
             <div class="col-12 col-lg-5 mb-3">
                 <div class="form">
-                    <form action="/sendmail" method="post">
+                    <form action="/sendmail" onsubmit="yaCounter51329899.reachGoal('zayavka'); return true;" method="post">
                         <input type="hidden" name="_csrf" value="<?=Yii::$app->request->getCsrfToken()?>" />
                         <p>
                             <input type="text" placeholder="Введите имя" name="name" required>

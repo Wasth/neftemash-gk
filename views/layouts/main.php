@@ -48,6 +48,7 @@ PublicAsset::register($this);
     <meta name="msapplication-navbutton-color" content="#f76309">
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#f76309">
+    <meta name="yandex-verification" content="a33b01b80bd0cced" />
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -56,6 +57,35 @@ PublicAsset::register($this);
 <body>
 
 <?php $this->beginBody() ?>
+<script type="text/javascript" src="//api.venyoo.ru/wnew.js?wc=venyoo/default/science&widget_id=6243688800976896"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter51329899 = new Ya.Metrika2({
+                    id:51329899,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/51329899" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 <?php
 
     if(Yii::$app->session->get('sent') == '1'){

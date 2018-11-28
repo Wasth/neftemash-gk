@@ -3,8 +3,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-2">КОНТАКТЫ</div>
-                <div class="col-12 col-md"><img src="img/phone-call.png" class="float-left" alt="icon"><p><a href="tel:88005512368">8 (800) 551-23-68</a></p></div>
-                <div class="col-12 col-md"><img src="img/mail.png" class="float-left" alt="icon"><p><a href="mailto:gk-neftemash@mail.ru">gk-neftemash@mail.ru</a></p></div>
+                <div class="col-12 col-md"><img src="img/phone-call.png" class="float-left" alt="icon"><p><a onclick="yaCounter51329899.reachGoal('phone'); return true;" href="tel:88005512368">8 (800) 551-23-68</a></p></div>
+                <div class="col-12 col-md"><img src="img/mail.png" class="float-left" alt="icon"><p><a onclick="yaCounter51329899.reachGoal('email'); return true;" href="mailto:gk-neftemash@mail.ru">gk-neftemash@mail.ru</a></p></div>
                 <div class="col-12 col-md-3"><img src="img/blank-map-pointer.png" class="float-left" alt="pointer"><p>Альметьевск,<br>
                         ул. Объездная, д.5</p></div>
             </div>
@@ -19,7 +19,7 @@
                 от 5 календарных дней<br>
                 и Бесплатно доставим по России<br>
                 до Вашего объекта!</h1>
-            <form action="/sendmail" method="post">
+            <form action="/sendmail" onsubmit="yaCounter51329899.reachGoal('zayavka'); return true;" method="post">
                 <input type="hidden" name="_csrf" value="<?=Yii::$app->request->getCsrfToken()?>" />
                 <div class="row">
                     <div class="col-12 col-md-6"><p>
