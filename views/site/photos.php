@@ -78,9 +78,6 @@
                 <div class="box" style="background-image:url('/img/photo/pic (9).jpg');"></div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mt-4" data-toggle="modal" data-target="exampleModal">
-                <div class="box" style="background-image:url('/img/photo/pic (10).jpg');"></div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4" data-toggle="modal" data-target="exampleModal">
                 <div class="box" style="background-image:url('/img/photo/pic (11).jpg');"></div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mt-4" data-toggle="modal" data-target="exampleModal">
@@ -220,9 +217,6 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4 mt-4" data-toggle="modal" data-target="exampleModal">
                 <div class="box" style="background-image:url('/img/photo/pic (60).jpg');"></div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mt-4" data-toggle="modal" data-target="exampleModal">
-                <div class="box" style="background-image:url('/img/photo/pic (61).jpg');"></div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mt-4" data-toggle="modal" data-target="exampleModal">
                 <div class="box" style="background-image:url('/img/photo/pic (62).jpg');"></div>
