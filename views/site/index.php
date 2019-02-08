@@ -22,7 +22,7 @@
         <div class="content text-xl-center text-left pt-5">
             <h1>Изготовим опоры трубопроводов <br>
                 от 5 календарных дней </h1>
-            <h2 class="mb-4 mt-3">и БЕСПЛАТНО доставим <br>
+            <h2 class="mb-4 mt-3">и оперативно доставим <br>
                 по России до Вашего объекта!</h2>
             <p class="mt-3 d-none d-md-block"><a href="/neftemash.pdf" download>
                     <button><img src="img/pdf.png" alt="PDF symbol">СКАЧАТЬ ПРЕЗЕНТАЦИЮ.pdf</button>
