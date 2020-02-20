@@ -208,7 +208,7 @@
             <span>БЫСТРАЯ ДОСТАВКА</span>
         </h1>
         <h1 class="text-center mb-3">
-            по всей России <span>ЗА НАШ СЧЁТ</span>
+            по всей России
         </h1>
         <h3 class="text-center mb-5">Мы сами находим машину и контролируем доставку до Вашего объекта.</h3>
         <p class="text-center mb-5"><img class="w-100 d-none d-lg-inline" src="img/deliveryline.png" alt="places"></p>
