@@ -10,7 +10,7 @@
                     </div>
                 </div>
                 <div class="col-xl-7 text-xl-right text-center">
-                    <p class="mt-2 ">Есть вопросы? Звоните прямо сейчас!   <span class="number"><a onclick="yaCounter51329899.reachGoal('phone'); return true;" href="tel:88005512368">8 (800) 551-23-68</a></span></p>
+                    <p class="mt-2 ">Есть вопросы? Звоните прямо сейчас!   <span class="number"><a onclick="yaCounter51329899.reachGoal('phone'); return true;" href="tel:88002014753">8 (800) 201-47-53</a></span></p>
                     <p>Отправьте заявку на почту <img src="img/orangemail.png" class="d-none d-xl-inline" alt="mail icon"> <span class="email"><a onclick="yaCounter51329899.reachGoal('email'); return true;" href="mailto:gk-neftemash@mail.ru">gk-neftemash@mail.ru</a></span></p>
                 </div>
             </div>

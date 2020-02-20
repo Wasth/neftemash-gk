@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="col-xl-7 text-xl-left text-center">
-                    <p class="mt-2 ">Есть вопросы? Звоните прямо сейчас!   <span class="number"><a href="tel:88005512368">8 (800) 551-23-68</a></span></p>
+                    <p class="mt-2 ">Есть вопросы? Звоните прямо сейчас!   <span class="number"><a href="tel:88002014753">8 (800) 201-47-53</a></span></p>
                     <p>Отправьте заявку на почту <img src="img/mailicon.png" class="d-none d-xl-inline" alt="mail icon"> <span class="email"><a href="mailto:gk-neftemash@mail.ru">gk-neftemash@mail.ru</a></span></p>
                 </div>
             </div>
@@ -22,12 +22,8 @@
         <div class="content text-xl-center text-left pt-5">
             <h1>Изготовим опоры трубопроводов <br>
                 от 5 календарных дней </h1>
-            <h2 class="mb-4 mt-3">и бесплатно доставим <br>
+            <h2 class="mb-4 mt-3">и оперативно доставим <br>
                 по России до Вашего объекта!</h2>
-            <p class="mt-3 d-none d-md-block"><a href="/neftemash.pdf" download>
-                    <button onclick="yaCounter51329899.reachGoal('presentation'); return true;"><img src="img/pdf.png" alt="PDF symbol">СКАЧАТЬ ПРЕЗЕНТАЦИЮ.pdf</button>
-                </a></p>
-
         </div>
     </div>
     <img src="img/opora.png" class="float-right d-none d-xl-block" alt="opora">

@@ -3,7 +3,9 @@
 
 # markup files
 markup
-
+# vendor & runtime
+vendor
+runtime
 # uploads
 web/assets/uploads
 
